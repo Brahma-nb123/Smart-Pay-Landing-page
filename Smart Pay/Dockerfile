@@ -2,9 +2,9 @@
 FROM nginx:latest
 
 # Copy HTML, CSS, JS, and other static files
-COPY *.html /usr/share/nginx/html/
-COPY *.css /usr/share/nginx/html/
-COPY *.js /usr/share/nginx/html/
+COPY . /usr/share/nginx/html/
+#COPY *.css /usr/share/nginx/html/
+#COPY *.js /usr/share/nginx/html/
 
 # Copy the video file to the correct directory
 #COPY video/mixkit-green-leaf-of-a-tree-wet-from-the-rain-18311-medium.mp4 /usr/share/nginx/html/video/
