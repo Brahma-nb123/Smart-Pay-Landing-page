@@ -14,7 +14,7 @@ COPY *.js /usr/share/nginx/html/
 #WORKDIR /active/Smart-Pay-Landing-page/Smart Pay
 
 # Expose port 80
-#EXPOSE 80
+EXPOSE 80
 
 # Start Nginx
 CMD ["nginx", "-g", "daemon off;"]
